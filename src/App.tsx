@@ -12,7 +12,6 @@ export const App = () => {
   const location = useLocation();
   const isHome = location.pathname === '/' || location.pathname === '';
   const isTabs = location.pathname.startsWith('/tabs');
-  const i = 31;
 
   return (
     <>
